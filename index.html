@@ -10,231 +10,207 @@
 
     <title>Portfolio</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
-
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Walter Guo</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Walter Guo</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Skills</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
+	
+	
 
-    <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-              <strong>Software Engineer & Front-end Developer</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Are you looking for a front-end developer? In touch with me now! </p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" style="background-color:#437db7" href="#about">Find Out More</a>
-          </div>
-        </div>
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1" style="color:white">Software Engineer & <br>Front-end Developer</h1>
+        <h3 class="mb-5">
+          <em style="color:white">Are you looking for a front-end developer? In touch with me now!</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
       </div>
+      <div class="overlay"></div>
     </header>
 
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">About Me</h2>
-            <hr class="light my-4">
-			<p class="text-faded mb-4">I'm Walter, a software engineer specialising in front-end content production, with experience of deliving responsive web design and developement.</p>
-			<p class="text-faded mb-4">I have a solid grasp of skills in front-end technologies such as HTML, CSS, JavaScript, React and so on. I love to code, and has developed the 
-			websites of my current working company.</p>
-            <p class="text-faded mb-4">My current interests lie in the field of Webpack and Angular 5. I am seeking more oppotunities and challenges to improve myself. If you want to find a software engineer or front-end developer, please do not hesitate to contact me.</p>
-
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">My Skills</a>
-          </div>
-        </div>
-      </div>
-    </section>
-	
-	<section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">My Expertise</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-6 col-md-4 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-lightbulb-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Creative</h3>
-              <p class="text-muted mb-0">I collaborate with managers and peers to come up and transform ideas into well thought out design specs.</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-bolt text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Design</h3>
-              <p class="text-muted mb-0">I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions.</p>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-code text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">code</h3>
-              <p class="text-muted mb-0">I love coding with HTML, CSS, JavaScript. I am familiar with front-end libraries and frameworks such as Bootstrap and React.</p>
-            </div>
-          </div>
-    
-        <a class="btn btn-primary btn-xl js-scroll-trigger mx-auto text-center" style="background-color:#437db7;margin-top:20px" href="#portfolio">Portfolio</a>
-        </div>
-
-      </div>
-    </section>
-
-    
-
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-dark text-white">
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
       <div class="container text-center">
-        <h2 class="mb-4">In Touch With Me Here</h2>
-        <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contact Me</a>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>About Me</h2>
+            <p class="lead mb-5"><strong>I'm Walter, a software engineer specialising in front-end content production, with experience of deliving responsive web design and developement.<br></br>I have a solid grasp of skills in front-end technologies such as HTML, CSS, JavaScript, React and so on. I love to code, and has developed the 
+			websites of my current working company.<br></br>
+My current interests lie in the field of Angular 5. I am seeking more oppotunities and challenges to improve myself. If you want to find a software engineer or front-end developer, please do not hesitate to contact me.</strong>			</p>
+	
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">My skills</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="contact">
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="mb-5">My Expertise</h2>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-4 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-bulb"></i>
+            </span>
+            <h4>
+              <strong>Creative</strong>
+            </h4>
+            <p class="text-faded mb-0">I collaborate with managers and colleagues to nurture and transform ideas into well thought out design specs.</p>
+          </div>
+          <div class="col-6 col-md-4 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-energy"></i>
+            </span>
+            <h4>
+              <strong>Design</strong>
+            </h4>
+            <p class="text-faded mb-0">I sketch and design interfaces focusing on content structure, intuitive UI patterns and simple interactions.</p>
+          </div>
+          <div class="col-6 col-md-4 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-star"></i>
+            </span>
+            <h4>
+              <strong>Code</strong>
+            </h4>
+            <p class="text-faded mb-0">I love coding with HTML, CSS, JavaScript. I am familiar with front-end libraries and frameworks such as Bootstrap and React.</p>
+          </div>
+
+        </div>
+		<a class="btn btn-dark btn-xl js-scroll-trigger" style="margin-top:40px;background-color:#d5db69" href="#portfolio">Portfolio</a>
+      </div>
+    </section>
+
+    <!-- Callout -->
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio" style="margin-bottom:0">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="http://www.cgmaxrender.com/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 >Website of CG Max Design</h2>
+                  <p class="mb-0" >HTML5, CSS3, JavaScript, React, MySQL</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/cgmax.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="http://lovecs.name/2048/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>2048</h2>
+                  <p class="mb-0">HTML5, Canvas, CSS3, jQuery</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/2048.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="http://lovecs.name/budget/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Budget App</h2>
+                  <p class="mb-0">HTML5, CSS3, JavaScript, jQuery UI</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/budget.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://score-keep-guo.herokuapp.com/">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Scoreboard App</h2>
+                  <p class="mb-0">HTML5, CSS3, JavaScript, React, Node.js, MongoDB</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/scoreboard.jpg" alt="">
+            </a>
+          </div>
+		     <div class="col-lg-6">
+            <a class="portfolio-item" href="https://radiant-caverns-49746.herokuapp.com">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Chatting Room App</h2>
+                  <p class="mb-0">HTML5, CSS3, JavaScript, Node.js, MongoDB, WebSocket</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/chatroom.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://blog-guo.herokuapp.com">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Note App</h2>
+                  <p class="mb-0">Responsive, HTML5, CSS3, JavaScript, React, Node.js, React, MongoDB</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/note.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section style="margin-top:0" class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4" style="text-align:center">In Touch With Me Here</h2>
+        <a href="#contact" class="btn btn-xl btn-light mr-4 js-scroll-trigger" style="justify-content:center;margin-top:30px">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section id="contact" style="margin-top:100px;margin-bottom:100px">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -264,18 +240,22 @@
       </div>
     </section>
 
+    
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-   
+
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
-
+    <script src="js/stylish-portfolio.min.js"></script>
 
   </body>
 
